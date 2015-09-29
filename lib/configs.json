@@ -1,0 +1,43 @@
+{
+  "main": {
+    "dest": "./lib/uploads",
+    "temp": "temp",
+    "absolute": false
+  },
+  "options": {
+    "original": {
+      "type": "original"
+    },
+    "high": {
+      "type": "high",
+      "options": {
+        "enhance": true
+      }
+    },
+    "low": {
+      "type": "low",
+      "options": {
+        "quality": "20",
+        "compress": "JPEG"
+      }
+    },
+    "c256": {
+      "type": "c256",
+      "options": {
+        "resize": [ "256", "256" ]
+      }
+    },
+    "c64": {
+      "type": "c64",
+      "options": {
+        "resize": [ "64", "64" ]
+      }
+    },
+    "c32": {
+      "type": "c32",
+      "options": {
+        "resize": [ "32", "32" ]
+      }
+    }
+  }
+}
