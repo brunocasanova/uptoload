@@ -1,3 +1,8 @@
-Repository for image upload with node.js
+Simple repository for images upload with node.js
 
-``npm run start`` to start
+```
+  // middlewares
+  
+  var uptoload = require( 'uptoload' );
+  
+```
