@@ -1,6 +1,6 @@
 {
   "main": {
-    "dest": "./lib/uploads",
+    "dest": "./uploads",
     "temp": "temp",
     "absolute": false
   },
