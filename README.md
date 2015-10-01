@@ -7,6 +7,6 @@ Simple repository for images upload with node.js
   
   //Express use
 
-  app.use( upload );
+  app.use( uptoload );
 
 ````
