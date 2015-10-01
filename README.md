@@ -5,4 +5,8 @@ Simple repository for images upload with node.js
   
   var uptoload = require( 'uptoload' );
   
+  //Express use
+
+  app.use( upload );
+
 ````
